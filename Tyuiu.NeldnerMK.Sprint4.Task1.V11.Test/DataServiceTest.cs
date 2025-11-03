@@ -17,7 +17,7 @@ namespace Tyuiu.NeldnerMK.Sprint4.Task1.V11.Test
             int[] numsArry = { 2, 6, 5, 5, 1, 5, 6, 5, 5, 5, 1, 5, 3, 6, 6, 1, 6 };
 
             int res = ds.Calculate(numsArry);
-            Assert.AreEqual(73, res);
+            Assert.AreEqual(32, res);
         }
     }
 }

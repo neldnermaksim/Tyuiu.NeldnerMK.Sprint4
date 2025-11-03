@@ -17,7 +17,7 @@ namespace Tyuiu.NeldnerMK.Sprint4.Task1.V11.Lib
 
             for (int i = 0; i < array.Length; i++)
             {
-                if (array[i] >= 1 && array[i] <= 6)
+                if (array[i] % 2 == 0)
                 {
                     sum += array[i];
                 }
