@@ -10,7 +10,7 @@ namespace Tyuiu.NeldnerMK.Sprint4.Task6.V25.Test
     public class DataServiсeTest
     {
         [TestMethod]
-        public void ValidGetCompare()
+        public void ValidGetCompare() 
         {
             DataService ds = new DataService();
 
