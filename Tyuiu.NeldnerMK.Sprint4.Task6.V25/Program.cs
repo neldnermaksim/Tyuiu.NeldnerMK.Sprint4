@@ -26,12 +26,12 @@ namespace Tyuiu.NeldnerMK.Sprint4.Task6.V25
 
             DataService ds = new DataService();
 
-            
+
 
             string[] matrix = { "Теннис", "Футбол", "Крикет", "Баскетбол", "Бейсбол", "Регби", "Хоккей" };
 
-            
-            
+
+
             Console.WriteLine();
             Console.WriteLine("Массив: ");
             Console.WriteLine(matrix);
@@ -43,10 +43,9 @@ namespace Tyuiu.NeldnerMK.Sprint4.Task6.V25
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                               *");
             Console.WriteLine("****************************************************************************");
 
-            int res =ds.Calculate(matrix);
+            int res = ds.Calculate(matrix);
             Console.WriteLine(res);
-            
+
         }
     }
 }
-
