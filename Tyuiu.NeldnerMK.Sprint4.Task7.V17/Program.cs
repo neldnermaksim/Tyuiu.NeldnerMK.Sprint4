@@ -44,7 +44,7 @@ namespace Tyuiu.NeldnerMK.Sprint4.Task7.V17
             {
                 for (int j = 0; j < m; j++)
                 {
-                    Console.WriteLine($"{str[index]} \t");
+                    Console.Write($"{str[index]} \t");
                     index++;
                 }
                 Console.WriteLine();
